@@ -15,9 +15,9 @@
       <!-- ul is just an unordered bulleted list-->
       <ul class="nav-links">
         <!-- li defines a list item-->
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">My Experience</a></li>
+        <!-- <li><a href="#experience">Experience</a></li> -->
+        <li><a href="">Blog</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div> 
@@ -38,23 +38,23 @@
         <span></span>
       </div>
       <div class="menu-links">
-        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-        <li><a href="#contact" onclick="toggleMenu()">Content</a></li>
+        <li><a href="#about" onclick="toggleMenu()">Experience</a></li>
+        <!-- <li><a href="#experience" onclick="toggleMenu()">Experience</a></li> -->
+        <li><a href="#projects" onclick="toggleMenu()">Blog</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
       </div>
     </div>
   </nav>
   <section id="profile">
     <div class="section__pic-container">
       <img src="./assets/profile-pic.png" 
-      alt="John Doe Profile Picture"
+      alt="Theo Profile Picture"
       />
     </div>
     <div class="section__text">
-      <p class="section__text__p1">Hello I'm</p>
-      <h1 class="title">John Doe</h1>
-      <p class="section__text__p2">Frontend Developer</p>
+      <p class="section__text__p1">Hello There</p>
+      <h1 class="title-typewriter">I'm Theo :D</h1>
+      <p class="section__text__p2">Research @VSE</p>
       <div class="btn-container">
         <button class="btn btn-color-2" 
         onclick="window.open('./assets/TEGUH_Theo_Obadiah_Resume.pdf')">Download CV
@@ -70,280 +70,397 @@
       class="icon" onclick="location.href='https://github.com/theo-obadiah-teguh'">
     </div>
   </section>
-  <section id="about">
-    <p class="section__text__p1">Get to Know More</p>
-    <h1 class="title">About Me</h1>
-    <div class="section-container">
-    <div class="section__pic-container">
-      <img src="./assets/about-pic.png" 
-      alt="Profile Picture"
-      class="about-pic"
-      />
-    </div>
-      <div class="about-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <img src="assets/experience.png" 
-            alt="Experience Icon"
-            class="icon"
-            />
-            <h3>Experience</h3>
-            <p> 
-              <br>Economics Research
-              <br>Data Engineering
-              <br>DevOps
-            </p>
-          </div>
-          <div class="details-container">
-            <img src="assets/education.png" 
-            alt="Education Icon"
-            class="icon"
-            />
-            <h3>Education</h3>
-            <p> 
-              <br>B.Econ&Fin @HKU
-              <br>2nd Major in CompSci
-              <br>B.Comm Exchange @UBC
-            </p>
-          </div>
+  <div class="wrapper">
+    <div class="scroll-container">
+      <section class="scroll-section" id="about">
+        <p class="section__text__p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./assets/about-pic.jpeg" 
+          alt="Profile Picture"
+          class="about-pic"
+          />
         </div>
-        <div class="text-container">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia odio voluptas optio corporis similique perspiciatis distinctio incidunt pariatur sequi fuga voluptatem minima nihil, possimus eum dignissimos dolorem repellat natus! Corporis ipsam vero sed doloremque, iure quod officia non asperiores consectetur maxime quisquam magnam eos, vel, inventore molestiae quas ad at?
-          </p>
-        </div>
-      </div>
-    </div>
-    <img src="./assets/arrow.png" 
-    alt="Arrow Icon"
-    class="icon arrow"
-    onclick="location.href='./#experience'"
-    />
-  </section>
-  <section id="experience">
-    <p class="section__text__p1">Explore My</p>
-    <h1 class="title">Experience</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container">
-          <h2 class="experience-sub-title">Programming and Tools</h2>
-          <div class="article-container">
-            <!-- The <article> tag specifies independent, self-contained content.
-            An article should make sense on its own and it should be possible to 
-            distribute it independently from the rest of the site. Potential sources
-            for the <article> element: Forum post, Blog post, News story -->
-            <article>
-              <img src="./assets/checkmark.png" 
-              alt="Experience Icon"
-              class="icon"
-              />
-              <div>
-                <h3>Python</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" 
-              alt="Experience Icon"
-              class="icon"
-              />
-              <div>
-                <h3>R</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" 
-              alt="Experience Icon"
-              class="icon"
-              />
-              <div>
-                <h3>Bash</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" 
-              alt="Experience Icon"
-              class="icon"
-              />
-              <div>
-                <h3>C</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" 
-              alt="Experience Icon"
-              class="icon"
-              />
-              <div>
-                <h3>C++</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" 
-              alt="Experience Icon"
-              class="icon"
-              />
-              <div>
-                <h3>Git</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-          </div>
-        </div>
-        <div class="details-container">
-          <h2 class="experience-sub-title">Data Engineering</h2>
-          <div class="article-container">
-            <!-- The <article> tag specifies independent, self-contained content.
-            An article should make sense on its own and it should be possible to 
-            distribute it independently from the rest of the site. Potential sources
-            for the <article> element: Forum post, Blog post, News story -->
-              <article>
-                <img src="./assets/checkmark.png" 
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img src="assets/experience.png" 
                 alt="Experience Icon"
                 class="icon"
                 />
-                <div>
-                  <h3>MySQL</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-              <img src="./assets/checkmark.png" 
-              alt="Experience Icon"
-              class="icon"
-              />
-              <div>
-                <h3>Pandas</h3>
-                <p>Experienced</p>
+                <h3>Experience</h3>
+                <p> 
+                  Economics Researcher
+                  <br>DevOps Engineer
+                  <br>Data Engineer
+                </p>
               </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" 
-              alt="Experience Icon"
-              class="icon"
-              />
-              <div>
-                <h3>NumPy</h3>
-                <p>Intermediate</p>
+              <div class="details-container">
+                <img src="assets/education.png" 
+                alt="Education Icon"
+                class="icon"
+                />
+                <h3>Education</h3>
+                <p> 
+                  B.Econ&Fin @HKU
+                  <br>2nd Major in CompSci
+                  <br>B.Comm Exchange @UBC
+                </p>
               </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" 
-              alt="Experience Icon"
-              class="icon"
-              />
-              <div>
-                <h3>scikit-learn</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" 
-              alt="Experience Icon"
-              class="icon"
-              />
-              <div>
-                <h3>ElementTree</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" 
-              alt="Experience Icon"
-              class="icon"
-              />
-              <div>
-                <h3>Tidyverse</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
+            </div>
+            <div class="text-container">
+              <p>
+                I'm a student at the University of Hong Kong who is interested in quantitative research and statistical analysis.
+                In the past, I've worked as a research assistant at the Faculty of Business and Economics 
+                alongside other PhD students, building projects related to data mining, data engineering, and machine learning. 
+                I've also worked as a Teaching Assistant for the Department of Computer Science. Currently I'm
+                doing DevOps as a Research Programming Assistant for the Vancouver School of Economics at the University 
+                of British Columbia.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <img src="./assets/arrow.png" 
-    alt="Arrow Icon"
-    class="icon arrow"
-    onclick="location.href='./#projects'"
-    />
-  </section>
-  <section id="projects">
-    <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title">Projects</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="assets/project-1.png" 
-            alt="Project 1" 
-            class="project-img"
-            />
+        <!-- <img src="./assets/arrow.png" 
+        alt="Arrow Icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+        /> -->
+      </section>
+      <section class="scroll-section" id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container anim">
+              <h2 class="experience-sub-title">Programming and Tools</h2>
+              <div class="article-container">
+                <!-- The <article> tag specifies independent, self-contained content.
+                An article should make sense on its own and it should be possible to 
+                distribute it independently from the rest of the site. Potential sources
+                for the <article> element: Forum post, Blog post, News story -->
+                <article>
+                  <img src="./assets/checkmark.png" 
+                  alt="Experience Icon"
+                  class="icon"
+                  />
+                  <div>
+                    <h3>Python</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" 
+                  alt="Experience Icon"
+                  class="icon"
+                  />
+                  <div>
+                    <h3>R</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" 
+                  alt="Experience Icon"
+                  class="icon"
+                  />
+                  <div>
+                    <h3>Bash</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" 
+                  alt="Experience Icon"
+                  class="icon"
+                  />
+                  <div>
+                    <h3>C</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" 
+                  alt="Experience Icon"
+                  class="icon"
+                  />
+                  <div>
+                    <h3>C++</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" 
+                  alt="Experience Icon"
+                  class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Beginner</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" 
+                  alt="Experience Icon"
+                  class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Beginner</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" 
+                  alt="Experience Icon"
+                  class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Beginner</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" 
+                  alt="Experience Icon"
+                  class="icon"
+                  />
+                  <div>
+                    <h3>Git</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" 
+                  alt="Experience Icon"
+                  class="icon"
+                  />
+                  <div>
+                    <h3>Docker</h3>
+                    <p>Beginner</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="details-container anim">
+              <h2 class="experience-sub-title">Data and Documentation</h2>
+              <div class="article-container">
+                <!-- The <article> tag specifies independent, self-contained content.
+                An article should make sense on its own and it should be possible to 
+                distribute it independently from the rest of the site. Potential sources
+                for the <article> element: Forum post, Blog post, News story -->
+                  <article>
+                    <img src="./assets/checkmark.png" 
+                    alt="Experience Icon"
+                    class="icon"
+                    />
+                    <div>
+                      <h3>MySQL</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                  <article>
+                  <img src="./assets/checkmark.png" 
+                  alt="Experience Icon"
+                  class="icon"
+                  />
+                  <div>
+                    <h3>Pandas</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" 
+                  alt="Experience Icon"
+                  class="icon"
+                  />
+                  <div>
+                    <h3>NumPy</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" 
+                  alt="Experience Icon"
+                  class="icon"
+                  />
+                  <div>
+                    <h3>scikit-learn</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" 
+                  alt="Experience Icon"
+                  class="icon"
+                  />
+                  <div>
+                    <h3>ElementTree</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" 
+                  alt="Experience Icon"
+                  class="icon"
+                  />
+                  <div>
+                    <h3>Tidyverse</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" 
+                  alt="Experience Icon"
+                  class="icon"
+                  />
+                  <div>
+                    <h3>R Markdown</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" 
+                  alt="Experience Icon"
+                  class="icon"
+                  />
+                  <div>
+                    <h3>R Bookdown</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" 
+                  alt="Experience Icon"
+                  class="icon"
+                  />
+                  <div>
+                    <h3>Jupyter</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" 
+                  alt="Experience Icon"
+                  class="icon"
+                  />
+                  <div>
+                    <h3>LaTeX</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+              </div>
+            </div>
           </div>
-          <h2 class="experience-sub-title project-title">Project One</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com'">
-              Github
-            </button>
-            <button class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com'">
-              Live Demo
-            </button>
+        </div>
+        <!-- <img src="./assets/arrow.png" 
+        alt="Arrow Icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+        /> -->
+      </section>
+      <section class="scroll-section" id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container anim">
+              <div class="article-container">
+                <img src="assets/project-1.png" 
+                alt="Project 1" 
+                class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">MorningStar</h2>
+              <div class="btn-container">
+                <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com'">
+                  Github
+                </button>
+                <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com'">
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container anim">
+              <div class="article-container">
+                <img src="assets/project-1.png" 
+                alt="Project 2" 
+                class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">CousCous</h2>
+              <div class="btn-container">
+                <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com'">
+                  GitHub
+                </button>
+                <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com'">
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container anim">
+              <div class="article-container">
+                <img src="assets/project-2.png" 
+                alt="Project 3" 
+                class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">KewPie</h2>
+              <div class="btn-container">
+                <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com'">
+                  GitHub
+                </button>
+                <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com'">
+                  Live Demo
+                </button>
 
+              </div>
+            </div>
+            <div class="details-container color-container anim">
+              <div class="article-container">
+                <img src="assets/project-3.png" 
+                alt="Project 4" 
+                class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Carhalla</h2>
+              <div class="btn-container">
+                <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com'">
+                  GitHub
+                </button>
+                <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com'">
+                  Live Demo
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="assets/project-2.png" 
-            alt="Project 2" 
-            class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">Project Two</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com'">
-              Github
-            </button>
-            <button class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com'">
-              Live Demo
-            </button>
-
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="assets/project-3.png" 
-            alt="Project 3" 
-            class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">Project Three</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com'">
-              Github
-            </button>
-            <button class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com'">
-              Live Demo
-            </button>
-          </div>
-        </div>
-      </div>
+        <!-- <img src="./assets/arrow.png" 
+        alt="Arrow Icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+        /> -->
+      </section>
+      <svg viewBox="0 0 900 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9.89998 6C9.43671 8.28224 7.41896 10 5 10C2.23858 10 0 7.76142 0 5C0 2.23858 2.23858 0 5 0C7.41896 0 9.43671 1.71776 9.89998 4H445.1C445.563 1.71776 447.581 0 450 0C452.419 0 454.437 1.71776 454.9 4H890.1C890.563 1.71776 892.581 0 895 0C897.761 0 900 2.23858 900 5C900 7.76142 897.761 10 895 10C892.581 10 890.563 8.28224 890.1 6H454.9C454.437 8.28224 452.419 10 450 10C447.581 10 445.563 8.28224 445.1 6H9.89998Z" fill="#D9D9D9"/>
+        <mask id="mask0_0_1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="900" height="10">
+        <path d="M9.89998 6C9.43671 8.28224 7.41896 10 5 10C2.23858 10 0 7.76142 0 5C0 2.23858 2.23858 0 5 0C7.41896 0 9.43671 1.71776 9.89998 4H445.1C445.563 1.71776 447.581 0 450 0C452.419 0 454.437 1.71776 454.9 4H890.1C890.563 1.71776 892.581 0 895 0C897.761 0 900 2.23858 900 5C900 7.76142 897.761 10 895 10C892.581 10 890.563 8.28224 890.1 6H454.9C454.437 8.28224 452.419 10 450 10C447.581 10 445.563 8.28224 445.1 6H9.89998Z" fill="#D9D9D9"/>
+        </mask>
+        <g mask="url(#mask0_0_1)">
+        <rect class="mask" y="-49" height="99" fill="black"/>
+        </g>
+      </svg>
     </div>
-    <img src="./assets/arrow.png" 
-    alt="Arrow Icon"
-    class="icon arrow"
-    onclick="location.href='./#contact'"
-    />
-  </section>
+  </div>
   <section id="contact">
-    <p class="section__text__p1">Get in Touch</p>
+    <p class="section__text__p1">Get In Touch</p>
     <h1 class="title">Contact Me</h1>
     <div class="contact-info-upper-container">
       <div class="contact-info-container">
@@ -377,15 +494,17 @@
       <div class="nav-links-container">
         <ul class="nav-links">
           <!-- li defines a list item-->
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Content</a></li>
+          <li><a href="#about">My Experience</a></li>
+          <!-- <li><a href="#experience">Experience</a></li> -->
+          <li><a href="">Blog</a></li>
+          <li><a href="#desktop-nav">Return</a></li>
         </ul>
       </div>
     </nav>
     <p>Copyright &#169; 2024 Theo Obadiah Teguh. All Rights Reserved.</p>
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

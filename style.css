@@ -9,9 +9,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 
 p {
@@ -155,6 +154,37 @@ a:hover {
 
 /* SECTIONS */
 
+.wrapper {
+  overflow-x: hidden;
+  position: relative;
+}
+
+svg {
+  position: absolute;
+  /* top: 12rem; */
+  left: 25vw;
+  width: 50vw;
+  bottom: 2.7vw;
+  .mask {
+      width: 0;
+  }
+}
+
+.scroll-container {
+  width: 320vw;
+  display: flex;
+}
+
+.scroll-section {
+  padding-top: 4vh;
+  height : 96vh;
+  margin: 0 10rem; /* Top-bottom, sides */
+  width: 80vw;
+  flex: none;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
 section {
   padding-top: 4vh;
   height : 96vh;
@@ -182,9 +212,14 @@ section {
   margin: auto 0;
 }
 
+.text-container p {
+  text-align: justify;
+}
+
 .section__text {
   align-self: center;
   text-align: center;
+  display: inline-block;
 }
 
 .section__text p {
@@ -203,6 +238,26 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+}
+
+.title-typewriter {
+  font-size: 3rem;
+  text-align: center;
+  border-right: 4px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:
+    typing 2s,
+    cursor .5s step-end infinite alternate;
+}
+
+@keyframes cursor {
+  50% {border-color: transparent }
+}
+
+@keyframes typing {
+  from {width: 0 }
 }
 
 #socials-container {
@@ -264,9 +319,9 @@ section {
 
 /* ABOUT SECTION */
 
-#about {
+/* #about {
   position: relative;
-}
+} */
 
 .about-containers {
   gap: 2rem;
@@ -285,7 +340,8 @@ section {
 }
 
 .about-pic {
-  border-radius: 2rem;
+  border-radius: 3rem;
+  margin-top: 1.5rem;
 }
 
 .arrow {
@@ -317,9 +373,9 @@ section {
 
 /* EXPERIENCE SECTION */
 
-#experience {
+/* #experience {
   position: relative;
-}
+} */
 
 .experience-sub-title {
   color: rgb(85,85,85);
@@ -339,14 +395,15 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 1.4rem;
+  margin-left: 2.5rem;
   justify-content: space-around;
 }
 
 article {
   display: flex;
-  width: 10rem;
-  justify-content: space-around;
+  width: 12rem;
+  justify-content: start;
   gap: 0.5rem;
 }
 
@@ -356,19 +413,25 @@ article .icon {
 
 /* PROJECTS SECTION */
 
-#projects {
+/* #projects {
   position: relative;
-}
+} */
 
 .color-container {
   border-color: rgb(163,163,163);
   background: rgb(250,250,250);
 }
 
+.color-container:hover {
+  border-color: rgb(163,163,163);
+  background: rgb(250,250,250);
+}
+
 .project-img {
-  border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  border-radius: 1.25rem;
+  width: 100%;
+  height: 100%;
+  margin-left: -2.5rem;
 }
 
 .project-title {
@@ -388,6 +451,15 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  scale: 0.8; 
+  opacity: 0;
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range: 250px 500px;
+}
+
+@keyframes fade-in {
+  to { scale: 1; opacity: 1;}
 }
 
 .contact-info-upper-container {
