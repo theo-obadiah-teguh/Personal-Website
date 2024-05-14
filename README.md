@@ -7,4 +7,4 @@ Here are some links that were very useful when building this website from scratc
 - [Setting up a host and deploying with S3, Route 53, and CloudFront](https://dev.to/oayanda/static-website-setup-on-amazon-cloud-using-cloudfront-s3-route53-acm-for-ssl-44ij).
 
 ## Acknowledgments
-Special thanks to the [How to Become a Developer YouTube Channel]([https://www.youtube.com/watch?v=jDz4j_kkyLA](https://www.youtube.com/@howtobecomeadeveloper/featured)) for providing valuable tutorial videos on HTML, CSS, and JavaScript that actually made this whole project possible.
+Special thanks to the [How to Become a Developer YouTube Channel](https://www.youtube.com/@howtobecomeadeveloper/featured) for providing valuable tutorial videos on HTML, CSS, and JavaScript that actually made this whole project possible.
