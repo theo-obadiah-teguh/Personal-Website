@@ -6,8 +6,10 @@
   .about-containers {
     flex-wrap: wrap;
   }
+  #projects {
+    height: fit-content;
+  }
 }
-
 
 /* When the screen size is lower than 1200px the desktop navigation will disappear */
 /* The hamburger menu will show up */
@@ -44,7 +46,12 @@
   .about-containers {
     margin-top: 0;
   }
+  .project-img {
+    height: 100%;
+    width: 100%;
+  }
 }
+
 @media screen and (max-width: 600px) {
   #contact, 
   footer {
@@ -69,10 +76,11 @@
   .contact-info-upper-container, 
   .contact-info-upper-container {
     flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .contact-info-container {
-    margin: 0;
+    margin: 0rem 0.125rem;
   }
 
   .contact-info-container p,
@@ -103,5 +111,9 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .project-img {
+    width: 100%;
+    height: 100%;
   }
 }
