@@ -3,7 +3,7 @@ This is the repository containing the source code and assets for my personal web
 
 ## Useful Links
 Here are some links that were very useful when building this website from scratch.
-- [Setting up your own domain](https://www.youtube.com/watch?v=jDz4j_kkyLA).
+- [Setting up your own domain with Route 53](https://www.youtube.com/watch?v=jDz4j_kkyLA).
 - [Setting up a host and deploying a secure site with S3, Route 53, and CloudFront](https://dev.to/oayanda/static-website-setup-on-amazon-cloud-using-cloudfront-s3-route53-acm-for-ssl-44ij).
 
 ## Acknowledgments
